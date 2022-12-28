@@ -20,7 +20,7 @@ timezone: America/Toronto
 
 title: Local-ski-reports # the main title
 
-tagline: Post ski reports here # it will display as the sub-title
+tagline: Post ski reports # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A site where users can post reviews of grooming at their local ski trails.
