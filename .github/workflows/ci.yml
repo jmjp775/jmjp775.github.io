@@ -27,12 +27,12 @@ jobs:
         with:
           fetch-depth: 0 # for post's lastmod
 
-      # this automatically runs bundle install and caches the result
+      # this automatically gets bug fixes and new Ruby versions
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
-          bundler-cache: true
+          bundler-cache: true # runs bundle install and caches the result
 
       - name: Test Site
         run: bash tools/test
